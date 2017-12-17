@@ -1,0 +1,6 @@
+framework module Pods_MVPArticleManagementExample {
+  umbrella header "Pods-MVPArticleManagementExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
