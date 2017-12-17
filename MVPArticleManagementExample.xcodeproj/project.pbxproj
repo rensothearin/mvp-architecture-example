@@ -27,6 +27,9 @@
 		552D2AF91FE369FE0076A0E8 /* ArticlePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
 		552D2AFD1FE36A430076A0E8 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		5541D3A71FE69AE700FE5D02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5541D3A91FE69F4300FE5D02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5541D3AA1FE6A08D00FE5D02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5541D3AB1FE6A19400FE5D02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		556354F21FE69394009FF592 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5569F9CB1FE3618E0008FD9A /* MVPArticleManagementExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPArticleManagementExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569F9CE1FE3618E0008FD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5569F9D01FE3618E0008FD9A /* ViewController.swift */,
+				5541D3AA1FE6A08D00FE5D02 /* README.md */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				552D2AF51FE363710076A0E8 /* Article.swift */,
+				5541D3A91FE69F4300FE5D02 /* README.md */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			children = (
 				556354F11FE69278009FF592 /* Protocols */,
 				552D2AF91FE369FE0076A0E8 /* ArticlePresenter.swift */,
+				5541D3AB1FE6A19400FE5D02 /* README.md */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
