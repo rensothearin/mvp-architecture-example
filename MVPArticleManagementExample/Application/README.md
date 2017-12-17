@@ -1,11 +1,10 @@
-#  Application
+### Application
 -------------------------------------------
 
-> Application folder contains the application configuration. Normally, this folder contains *AppDelegate* file.
+Application folder contains the application configuration. Normally, this folder contains *AppDelegate* file.
 
 
-
+### License
 --------------------------------------------
-@All Right Reserved
-Sothearin Ren (@MsPanda)
 
+MIT License.

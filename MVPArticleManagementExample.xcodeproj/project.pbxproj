@@ -12,6 +12,7 @@
 		552D2AF81FE369990076A0E8 /* ArticleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D2AF71FE369990076A0E8 /* ArticleServiceProtocol.swift */; };
 		552D2AFA1FE369FE0076A0E8 /* ArticlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D2AF91FE369FE0076A0E8 /* ArticlePresenter.swift */; };
 		552D2AFE1FE36A430076A0E8 /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D2AFD1FE36A430076A0E8 /* ArticleService.swift */; };
+		5541D3A81FE69AE700FE5D02 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5541D3A71FE69AE700FE5D02 /* Info.plist */; };
 		5569F9CF1FE3618E0008FD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F9CE1FE3618E0008FD9A /* AppDelegate.swift */; };
 		5569F9D11FE3618E0008FD9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F9D01FE3618E0008FD9A /* ViewController.swift */; };
 		5569F9D41FE3618E0008FD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5569F9D21FE3618E0008FD9A /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		552D2AF71FE369990076A0E8 /* ArticleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServiceProtocol.swift; sourceTree = "<group>"; };
 		552D2AF91FE369FE0076A0E8 /* ArticlePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
 		552D2AFD1FE36A430076A0E8 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		5541D3A71FE69AE700FE5D02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		556354F21FE69394009FF592 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5569F9CB1FE3618E0008FD9A /* MVPArticleManagementExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPArticleManagementExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569F9CE1FE3618E0008FD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +34,6 @@
 		5569F9D31FE3618E0008FD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5569F9D51FE3618E0008FD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5569F9D81FE3618E0008FD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5569F9DA1FE3618E0008FD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		928624824436AAA91296B399 /* Pods_MVPArticleManagementExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPArticleManagementExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BC315E493E267B00A248DB /* Pods-MVPArticleManagementExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPArticleManagementExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVPArticleManagementExample/Pods-MVPArticleManagementExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +87,6 @@
 		556354EA1FE6916A009FF592 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5569F9DA1FE3618E0008FD9A /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,6 +167,7 @@
 		5569F9CD1FE3618E0008FD9A /* MVPArticleManagementExample */ = {
 			isa = PBXGroup;
 			children = (
+				5541D3A71FE69AE700FE5D02 /* Info.plist */,
 				556354E81FE69157009FF592 /* Application */,
 				556354E61FE69140009FF592 /* Controllers */,
 				556354EB1FE69174009FF592 /* Libraries */,
@@ -260,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5541D3A81FE69AE700FE5D02 /* Info.plist in Resources */,
 				5569F9D91FE3618E0008FD9A /* LaunchScreen.storyboard in Resources */,
 				5569F9D61FE3618E0008FD9A /* Assets.xcassets in Resources */,
 				5569F9D41FE3618E0008FD9A /* Main.storyboard in Resources */,
