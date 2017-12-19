@@ -6,6 +6,7 @@ target 'MVPArticleManagementExample' do
   use_frameworks!
 	pod 'ObjectMapper'
 	pod 'Alamofire'
+	pod 'Kingfisher'
   # Pods for MVPArticleManagementExample
 
 end
